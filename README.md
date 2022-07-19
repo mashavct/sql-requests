@@ -1,4 +1,4 @@
-| First Header  | Second Header |
+| What is needed  | Query |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Need: not toyota & 2019> & 7m<, ord. by AutoID  | SELECT * FROM Auto WHERE NOT CarBrand='Toyota' AND YearOfRelease > '2019' AND Price < 7000000 ORDER BY AutoID;  |
 | Content Cell  | Content Cell  |
